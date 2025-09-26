@@ -1,0 +1,126 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import GlowLineSeparator from '@/components/ui/separator/GlowLineSeparator.astro';
+const pageTitle = 'About Kritika Choudhary';
+const pageDescription = 'Learn more about Kritika Choudhary, a Software Engineer specializing in data pipelines, real-time streaming solutions, and cloud infrastructure.';
+---
+
+<Layout title={pageTitle} description={pageDescription} pubDate={new Date()} showHeader={false}>
+  <div class="prose prose-lg max-w-none">
+    <h1 class="text-4xl font-bold mb-6">About Me</h1>
+    
+    <p class="text-xl leading-relaxed mb-6">
+      Hey! I'm <strong>Kritika Choudhary</strong>, a passionate Software Engineer based in Pune, India, 
+      specializing in building robust data pipelines and real-time streaming solutions that power scalable analytics and transactional workflows.
+    </p>
+
+    <h2 class="text-2xl font-semibold mt-8 mb-4">My Journey</h2>
+    
+    <p class="mb-4">
+      Currently working as a <strong>Software Engineer at Finvu AA</strong>, I focus on building and optimizing 
+      data pipelines using Python, Java, and Apache Kafka. My work involves deploying and managing services on 
+      Kubernetes across both on-premises and cloud environments, ensuring high availability and operational efficiency.
+    </p>
+
+    <p class="mb-4">
+      Previously, I had the incredible opportunity to work as a <strong>Software Development Intern at Amazon</strong> 
+      in Bangalore, where I collaborated with the Amazon Payment team to improve seller experience. I designed and 
+      implemented asynchronous bulk operations using AWS services like DynamoDB, S3, and Lambda functions, gaining 
+      valuable experience in microservices architecture and API design.
+    </p>
+
+    <p class="mb-6">
+      My journey also includes a <strong>Research and Development Internship at DRDO</strong>, where I researched 
+      algorithms for object detection systems and AR/VR Technology for defense applications, presenting findings to 
+      senior engineers and scientists.
+    </p>
+
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Technical Expertise</h2>
+    
+    <div class="grid md:grid-cols-2 gap-6 mb-6">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Programming Languages</h3>
+        <p class="text-gray-600">Java, Python, Shell Scripting, SQL</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Frameworks & Tools</h3>
+        <p class="text-gray-600">Spring Boot, Apache Kafka, Apache Drill</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Cloud & Infrastructure</h3>
+        <p class="text-gray-600">Google Cloud Platform (GCP), Kubernetes, AWS</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Databases</h3>
+        <p class="text-gray-600">Cassandra, MongoDB, ClickHouse, DynamoDB</p>
+      </div>
+    </div>
+
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Key Projects</h2>
+    
+    <div class="space-y-4 mb-6">
+      <div class="border-l-4 border-blue-500 pl-4">
+        <h3 class="font-semibold">QuickServ - Service Aggregator Platform</h3>
+        <p class="text-gray-600">Developed a comprehensive platform connecting users with local service providers using React, Spring Boot, and MongoDB with JWT authentication and role-based access control.</p>
+      </div>
+      
+      <div class="border-l-4 border-green-500 pl-4">
+        <h3 class="font-semibold">Bookmate - Book Reselling Platform</h3>
+        <p class="text-gray-600">Built a book reselling website with Firebase integration, allowing users to sell and buy books with a dynamic cart system.</p>
+      </div>
+    </div>
+
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Education & Achievements</h2>
+    
+    <p class="mb-4">
+      I graduated with a <strong>Bachelor of Engineering</strong> from <strong>D.Y. Patil College of Engineering Pune</strong> 
+      with an impressive <strong>CGPA of 9.2</strong>. My coursework covered essential computer science fundamentals including 
+      Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks, and Object-Oriented Programming.
+    </p>
+
+    <div class="bg-gray-50 p-6 rounded-lg mb-6">
+      <h3 class="text-lg font-semibold mb-3">Notable Achievements</h3>
+      <ul class="space-y-2">
+        <li>• Successfully led a team of 20+ members as <strong>Vice President of ACES</strong> (Student Club), organizing 10+ events including workshops and guest lectures</li>
+        <li>• Solved <strong>300+ coding problems</strong> on platforms like CodeChef, LeetCode, and CodeForces</li>
+        <li>• Completed <strong>FlipKart Grid 4.0 Level 1</strong></li>
+        <li>• Strong foundation in <strong>Data Structures and Algorithms</strong> with practical problem-solving experience</li>
+      </ul>
+    </div>
+
+    <h2 class="text-2xl font-semibold mt-8 mb-4">What Drives Me</h2>
+    
+    <p class="mb-4">
+      I'm passionate about building systems that are not just functional, but also scalable, reliable, and efficient. 
+      My approach combines strong technical skills with collaborative leadership, always focusing on delivering 
+      solutions that make a real impact.
+    </p>
+
+    <p class="mb-4">
+      I believe in continuous learning and staying updated with the latest technologies. Whether it's working on 
+      data pipeline optimizations, implementing monitoring solutions, or leading team initiatives, I bring a 
+      problem-solving mindset and attention to detail to every project.
+    </p>
+
+    <p class="mb-6">
+      When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
+      or mentoring fellow developers. I'm always excited to collaborate on meaningful problems and build 
+      solutions that matter.
+    </p>
+
+    <div class="bg-blue-50 p-6 rounded-lg">
+      <h3 class="text-lg font-semibold mb-2">Let's Connect!</h3>
+      <p class="mb-4">
+        I'm always interested in discussing new opportunities, interesting projects, or just having a chat about technology. 
+        Feel free to reach out!
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <a href="mailto:kritikanc2003@gmail.com" class="text-blue-600 hover:text-blue-800">📧 Email</a>
+        <a href="https://www.linkedin.com/in/kritika-choudhary" class="text-blue-600 hover:text-blue-800"> LinkedIn</a>
+        <a href="https://github.com/Kritika0804" class="text-blue-600 hover:text-blue-800">🐙 GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <GlowLineSeparator />
+</Layout>
